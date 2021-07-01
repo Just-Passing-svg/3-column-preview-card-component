@@ -1,0 +1,94 @@
+body{
+    background-image: url(../images/pexels-skinny-alien-2318554.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.content-frm{
+    width: 85%;
+    height: 460px;
+    margin-top: 50px;
+    margin-left: 85px;
+    display: inline-flex;
+}
+
+.content{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    float: left;
+    line-height: 20px;
+}
+
+.content svg{
+    margin-left: 40px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.content span{
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-top: 150px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.content p{
+    width: 60%;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 200px;
+    margin-left: 40px;
+}
+
+.content button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    margin-left: 50px;
+    border: none;
+}
+
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+#btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+#btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+#content1{
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+#content2{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+#content3{
+    width: 33.3%;
+    height: 100%;
+    float: right;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
